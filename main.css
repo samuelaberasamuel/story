@@ -1,0 +1,899 @@
+body{
+    margin: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 120%;
+}
+
+.main-section{
+    display: flex;
+    height: 100vh;
+}
+
+.main-section.reversed{
+    flex-direction: row-reverse;
+    height: 75%;
+}
+
+.main-content-wrapper{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.content-padding {
+    padding: 10px 80px 10px 80px;
+}
+
+.main-image-wrapper {
+    width: 50%;
+}
+
+.main-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    margin: 0;
+}
+
+.main-heading {
+    font-size: 64px;
+}
+
+.main-button{
+    padding: 20px 60px;
+    border-radius: 999px;
+    color: lightgray;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.main-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+span{
+    background-color: lightgray;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: rgb(17, 175, 227);
+    text-decoration: underline white;
+}
+
+#wrapper{
+    height: 30%;
+}
+
+.gallery{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-gallery-container{
+    height: 25%;
+}
+
+.main-gallery-collection{
+    width: 13%;
+    height: 25%;
+}
+
+#middle{
+    margin-left: -6px;
+}
+
+.main-gallery{
+    text-align: center;
+}
+
+.main-content-section{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;   
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    border-color: black;
+    padding: 10%;
+    margin: 5%;
+    box-sizing: inherit;
+}
+
+.grid-title{
+    width: 25%;
+    margin-left: 35%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 75%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+}
+
+.gem{
+    width: 10%;
+    height: 10%;
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+.save{
+    width: 10%;
+    height: 10%;
+}
+
+.bar{
+    width: 10%;
+    height: 10%;
+}
+
+.wifi{
+    width: 10%;
+    height: 10%;
+}
+
+.setting{
+    width: 10%;
+    height: 10%;
+}
+
+.papper-plane{
+    width: 10%;
+    height: 10%;
+}
+
+.monitor{
+    width: 10%;
+    height: 10%;
+}
+
+.sync{
+    width: 10%;
+    height: 10%;
+}
+
+.hash-tag{
+    width: 10%;
+    height: 10%;
+}
+
+.lightning{
+    width: 10%;
+    height: 10%;
+}
+
+.envelope{
+    width: 10%;
+    height: 10%;
+}
+
+.leaf{
+    width: 10%;
+    height: 10%;
+}
+
+.main-gallery-text{
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+.main-lesson-section{
+    width: 100%;
+    height: 100%;
+}
+
+.main-text{
+    width: 25%;
+    height: 25vh;
+    font-size: 165%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.element{
+    width: 75%;
+    height: -115vh;
+    float: right;
+    border-color: black;
+    box-sizing: inherit;
+    margin-top: -14%;
+}
+
+.main-heading{
+    margin-top: -5.5%;
+}
+
+.main-heading-title{
+    width: 25%;
+    height: 60vh;
+    font-size: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.heading-level{
+    width: 50%;
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: -27.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23.8%;
+    font-weight: lighter;
+}
+
+.first-head{
+    margin-top: 0%;
+    width: 50%;
+    font-size: 35%;
+    float: right;
+    font-weight: lighter;
+    height: 10vh;
+}
+
+.second-head{
+    margin-top: 0%;
+    width: 50%;
+    font-size: 30%;
+    float: right;
+    font-weight: lighter;
+}
+
+.Third-head{
+    margin-top: 0%;
+    width: 50%;
+    font-size: 35%;
+    float: right;
+    font-weight: lighter;
+    height: 10vh;
+}
+
+.main-subtitle{
+    width: 50%;
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.main-table{
+    width: 50%;
+    height: 100vh;
+}
+
+th{
+    text-align: center;
+}
+
+.lesson-content{
+    width: 25%;
+    float: right;
+    margin-right: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: -2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%; 
+}
+
+.ul-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.List-section-tittle{
+    width: 70%;
+    float: right; 
+    font-size: 80%;
+    font-weight: lighter;
+    margin-top: 3%;
+}
+
+.ol-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.def-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.def-content{
+    width: 70%;
+    float: right; 
+    font-size: 80%;
+    font-weight: lighter;
+    margin-top: 3%;
+}
+
+.block-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.block-content{
+    width: 70%;
+    float: right; 
+    font-size: 80%;
+    font-weight: lighter;
+    margin-top: 7%;
+    border-radius: 3px black;
+}
+
+.code-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.code-content{
+    width: 70%;
+    float: right; 
+    font-size: 80%;
+    font-weight: lighter;
+    margin-top: 7%;
+    border-radius: 3px black;
+}
+
+.icon-section{
+    width: 30%;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.icon-content{
+    width: 70%;
+    float: right; 
+    font-size: 80%;
+    font-weight: lighter;
+    margin-top: 7%;
+    border-radius: 3px black;
+}
+
+.code-span{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 65%;
+    margin-top: -2%;
+    height: 50%;
+    border-radius: 1%;
+}
+
+.logo{
+    width: 60%;
+    height: 40%;
+}
+
+.twitter{
+    width: ;
+    height: ;
+}
+
+.style{
+    width: px;
+    height: px;
+    list-style:inside;
+}
+
+.twitter:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+#X{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 3%;
+    height: 3%;display: flex;
+    flex-direction: row;
+}
+
+#fb{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 3%;
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#ig{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 3%;
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#git{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    width: 3%;
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+#basket{
+    border: 2px solid lightgray;
+    border-radius: 75%;
+    width: 3%;
+    height: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-section{
+    width: 30%;
+    height: 75vh;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.primary-button{
+    padding: 15px 25px;
+    border-radius: 999px;
+    color: white;
+    border-color: black;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.primary-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.large-button{
+    padding: 15px 25px;
+    border-radius: 999px;
+    color: white;
+    border-color: black;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.large-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+#black-button{
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+#black-button:hover{
+    background-color: rgb(17, 175, 227);
+    color: white;
+    border-color: rgb(17, 175, 227);
+}
+
+.default-button{
+    padding: 15px 25px;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.default-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.small-button{
+    padding: 5px 10px;
+    margin-top: -5%;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    font-weight: lighter;
+}
+
+.small-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.fit-button{
+    padding: 15px 80px;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgrey;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.fit-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.fit_small-button{
+    padding: 10px 70px;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.fit_small-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.icon{
+    padding: 2px 70px;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.icon-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.search-link{
+    color: white;
+}
+
+.search-link:hover{
+    color: white;
+    border-color: rgb(17, 175, 227);
+}
+
+.search{
+    width: 20%;
+    height: 0%;
+    margin-top: 1%;
+    padding: 2px 3px;
+}
+
+.search-button{
+    color: white;
+}
+
+.search{
+    color: black;
+    width: 20%;
+    height: 0%;
+    margin-top: 1%;
+    padding: 2px 3px;
+}
+
+.download{
+    color: black;
+    width: 20%;
+    height: 0%;
+    margin-top: 1%;
+    padding: 2px 3px;
+}
+
+.download-link{
+    color: rgb(0, 0, 0);
+}
+
+.download-button{
+    padding: 2px 6px;
+    border-radius: 999px;
+    color: black;
+    border-color: black;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.download-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+#grey-button{
+    background-color: lightgrey;
+    color: white;
+    border-color: lightgrey;
+}
+
+.action-section{
+    width: 30%;
+    height: 90vh;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.def{
+    padding: 15px 25px;
+    border-radius: 999px;
+    color: rgb(229, 226, 226);
+    border-color: rgb(244, 241, 241);
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.default-long-button{
+    padding: 15px 150px;
+    border-radius: 999px;
+    color: black;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.default-long-button:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+#name{
+    width: 20%;
+    height: 15px;
+}
+
+#course{
+    width: 60%;
+    height: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+}
+
+#Low-Priority{
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 100%;
+    background-color: black;
+    border: solid 2px black;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 500px;
+}
+
+.Message{
+    width: 60%;
+    height: 25vh;
+    float: left;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#after-message{
+    width: 30px;
+    height: 30px;
+    color: black;
+    border-radius: 100%;
+    background-color: black;
+    border: solid 2px black;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 500px;
+}
+
+.send-message{
+    padding: 20px 60px;
+    border-radius: 999px;
+    color: lightgray;
+    border-color: lightgray;
+    background: transparent;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.send-message:hover{
+    color: rgb(17, 175, 227);
+    border-color: rgb(17, 175, 227);
+}
+
+.table-section{
+    width: 30%;
+    height: 90vh;
+    float: left;
+    font-size: 100%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.item-table{
+    width: 50%;
+    height: 2vh;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    border-collapse: collapse;
+    border-color: lightgray;
+}
+
+.table-header{
+    font-weight: lighter;
+    text-align: left;
+    font-size: small;
+}
+
+.item-list{
+    width: 7%;
+    height: 8vh;
+    text-align: left;
+    padding-left: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.Description{
+    width: 33%;
+    text-align: left;
+    font-size: medium;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    
+}
+
+.price{
+    width: 10%;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 8px;
+    
+}
+
+.grey-table{
+    background-color: rgb(237, 234, 234);
+}
+
+#table-name{
+  border: 1px solid lightgrey;
+  text-align: left;
+  padding: 8px;
+}
+
+.image-section{
+    width: 30%;
+    height: 420vh;
+    float: left;
+    font-size: 150%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.fit-autumn{
+    width: 50%;
+    border-radius: 1%;
+}
+
+.left{
+    font-weight: lighter;
+    height: 5vh;
+}
+
+.left-camera{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 3%;
+    float: left;
+    
+}
+
+.left-content{
+    width: 30%;
+    margin: 0px 100px 0px 600px;
+    padding-left: -50px;
+    height: 50vh;
+    font-size: 75%;
+}
+
+.right{
+    margin-top: 10px;
+     
+}
+
+.right-content{
+    font-weight: lighter;
+    font-size: 75%;
+}
+
+.right-animal{
+    width: 25vh;
+    height: 20vh;
+    border-radius: 3%;
+    float: right;
+    font-size: 50px;
+}
